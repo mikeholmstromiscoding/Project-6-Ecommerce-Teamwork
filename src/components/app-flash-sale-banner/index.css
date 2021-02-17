@@ -1,0 +1,53 @@
+.flash-sale{
+  background-color: var(--secondary-color);
+  margin-bottom: 5rem;
+}
+.flash-sale-off{
+  color: white;
+  padding: 36px;
+  text-align: center;
+  width: 255px;
+  height: 265px;
+  background-color: var(--theme-color);
+}
+.flash-sale-off h1{
+  font-size: 60px;
+  line-height: 60px;
+}
+.flash-sale-off p{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.flash-counter-i{
+  text-align: center;
+  width: 107px;
+  height: 107px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px dashed var(--theme-color);
+  margin: 0 1rem;
+}
+.flash-counter-i h3{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.flash-container{
+  min-height: 435px;
+}
+
+@media (max-width: 768px) {
+  .flash-sale-off {
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .flash-sale-off {
+    margin: auto !important;
+  }
+}
+

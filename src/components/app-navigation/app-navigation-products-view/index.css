@@ -1,0 +1,23 @@
+.shop-current-path {
+    background-color: var(--secondary-light-color);
+    color: white;
+}
+
+.current-path-container {
+    height: 140px;
+}
+
+.product-brand-fix {
+    background-color: white;
+    padding: 11px 29px;
+    border-radius: 6px;
+    display: blockl;
+}
+
+.product-brand-img {
+    height: 29px;
+}
+
+.icons {
+    font-size: 0.78rem;
+}

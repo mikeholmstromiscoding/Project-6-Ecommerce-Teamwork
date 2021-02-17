@@ -1,0 +1,65 @@
+.sale-info{
+  height: 418px;
+  background-color: #000;
+  background: url('../../assets//img/discount-banner-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  margin-bottom: 5rem;
+}
+.sale-info-off{
+  height: 100%;
+  width: 255px;
+  background-color: var(--theme-color);
+  color: white;
+}
+.sale-info-off h3{
+  font-size: 60px;
+  font-weight: bold;
+}
+.sale-info-off h3 span{
+  font-size: 36px;
+}
+.sale-info-btn{
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+.sale-info-desc p{
+  font-size: 14px;
+  color: white;
+}
+.sale-info-desc-btn{
+  width: 173px !important;
+}
+
+@media (max-width: 576px) {
+  .sale-info-off {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    background-color: rgba(32, 211, 193, 0.7);
+  }
+
+  .sale-info-desc {
+    display: none !important;
+  }
+
+  .sale-info {
+    background-color: transparent;
+  }
+
+  .sale-info-off {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .sale-info {
+    
+    background-size: cover !important;
+    
+  }
+}

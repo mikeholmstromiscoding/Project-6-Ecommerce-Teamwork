@@ -1,0 +1,41 @@
+.order-header{
+    min-height: 80px;
+    border: 2px solid var(--secondary-color);
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--theme-color);
+    border-radius: 6px 6px 0 0;
+  }
+  .order-content {
+    border: 2px dashed var(--secondary-color);
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    padding: 25px;
+  }
+
+.header-justify{
+  text-align: center;
+  margin: auto;
+  margin-top: 6rem;
+
+}
+.card-margin{
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.margin-button{
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+@media(max-width: 576px) {
+  .header-justify h2{
+    font-size: 2rem !important;
+  }
+  .header-justify p{
+    font-size: 1.3rem;
+  }
+}
+
+ 

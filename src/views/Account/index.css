@@ -1,0 +1,11 @@
+.user-bg {
+     
+     padding: 8rem 0rem;
+}
+
+@media (max-width: 576px) {
+.user-bg {
+     
+     padding: 2.8rem 0rem;
+}
+}

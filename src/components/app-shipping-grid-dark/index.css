@@ -1,0 +1,106 @@
+#shipping-boxes-dark {
+  margin-top: 5rem;
+  margin-bottom: -2rem;
+  background: rgba(14, 21, 61, 0.85);
+  padding: 5rem 0;
+}
+
+#shipping-boxes-dark .container {
+  max-width: 85%;
+}
+
+#shipping-boxes-dark .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+#shipping-boxes-dark .box-image {
+  min-width: 18%;
+  height: auto;
+}
+
+#shipping-boxes-dark .box-shipping {
+  background: #fff;
+  border-radius: 5px;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#shipping-boxes-dark .text-theme {
+  color: #20D3C2;
+  font-weight: 600;
+}
+
+#shipping-boxes-dark .text-title {
+  font-size: 0.9rem;
+}
+
+#shipping-boxes-dark .box-shipping img {
+  filter: invert(82%) sepia(47%) saturate(5678%) hue-rotate(126deg) brightness(108%) contrast(75%);
+}
+
+#shipping-boxes-dark .box-shipping:hover {
+  background: #20D3C2;
+}
+
+#shipping-boxes-dark .box-shipping:hover p {
+  color: #fff;
+}
+
+#shipping-boxes-dark .box-shipping:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+@media (max-width: 1140px) {
+  #shipping-boxes-dark .box-image {
+    width: auto;
+  }
+
+  #shipping-boxes-dark .container {
+    max-width: 95%;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  #shipping-boxes-dark .grid-wrapper {
+    grid-gap: 2rem;
+  }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #shipping-boxes-dark .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+  }
+
+  #shipping-boxes-dark .box-image {
+    width: 60px;
+    height: 60px;
+  }
+
+ 
+}
+
+@media (min-width: 1920px) {
+   #shipping-boxes-dark .box-image {
+     height: 80px !important;
+     width: auto !important;
+   }
+
+}
+

@@ -1,0 +1,162 @@
+.invalid-contact {
+color: #dc3545;
+display: block;
+margin-top: -15px;
+padding: 0.5rem 0;
+}
+
+.map {
+    width: 100%;
+    height: 624px;
+    border: none !important;
+}
+
+.contact-form {
+    position: relative;
+    background-color: var(--secondary-color);
+    margin-top: -225px;
+    z-index: 1;
+    border-radius: 6px;
+    color: white;
+}
+
+.custom-contact-icon {
+    font-size: 23px;
+    margin-bottom: 18px;
+    margin-right: 8px;
+}
+
+.contact-header {
+    min-height: 120px;
+    padding: 50px;
+}
+
+.header-breaker {
+    height: 2px;
+    border: none;
+    background-color: var(--theme-color);
+    margin: 0;
+}
+
+.contact-content {
+    padding: 50px;
+}
+
+.follow-hr {
+    background-color: var(--theme-color);
+    width: 40px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 28px;
+    display: inline-block;
+}
+
+.custom-r-input {
+    margin-bottom: 15px;
+}
+
+.fa-facebook-f {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.fa-facebook-f:hover {
+    color: #fff;
+}
+
+.fa-twitter {
+     transition: all 0.3s linear;
+     -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+     -ms-transition: all 0.3s linear;
+     -o-transition: all 0.3s linear;
+}
+
+.fa-twitter:hover {
+    color: #fff;
+}
+
+.fa-instagram {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.fa-instagram:hover {
+    color: #fff;
+}
+
+.fa-pinterest-p {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.fa-pinterest-p:hover {
+    color: #fff;
+}
+
+.fa-pinterest-p {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.fa-youtube {
+     transition: all 0.3s linear;
+     -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+     -ms-transition: all 0.3s linear;
+     -o-transition: all 0.3s linear;
+}
+
+.fa-youtube:hover {
+  color: #fff;
+}
+
+
+
+
+
+.send-btn {
+    margin-top: 25px;
+    height: 48px;
+    line-height: 38px;
+    font-size: 18px;
+    border-radius: 28px;
+    min-width: 190px;
+    width: 100%;
+}
+
+
+@media(min-width: 768px) {
+    .contact-form {
+        margin-top: -121px;
+    }
+
+    .send-btn {
+       
+        width: initial;
+    }
+
+    .get-in-touch {
+        text-align: left;
+    }
+
+
+}
+
+@media(max-width: 576px) {
+     .get-in-touch {
+         text-align: left;
+     }
+}

@@ -1,0 +1,11 @@
+.app-brands{
+    height: 485px;
+    
+  }
+
+  @media (min-width: 992px)  { 
+    .app-brands{
+      height: 285px;
+    }
+  }
+

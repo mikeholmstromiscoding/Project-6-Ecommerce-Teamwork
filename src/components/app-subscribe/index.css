@@ -1,0 +1,42 @@
+.app-contact {
+    background-color: var(--light-grey);
+    padding: 5rem 0;
+    background: url('../../assets/img/subscribe-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    margin-top: 5rem;
+}
+
+.app-contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.app-contact p {
+    margin: 16px 0 29px 0;
+    max-width: 391px;
+}
+
+
+@media (max-width: 768px) {
+     .app-contact {
+         margin-top: 3rem;
+         text-align: center;
+         background-size: cover;
+         background-position-y: 50%;
+         background-size: 150%;
+         background-position-x: 5%;
+     }
+}
+
+@media (max-width: 576px) {
+    .app-contact {
+        margin-top: 3rem;
+        text-align: center;
+        background-size: 180%;
+        background-position-y: 38%;
+        background-position-x: 1%;
+    }
+}

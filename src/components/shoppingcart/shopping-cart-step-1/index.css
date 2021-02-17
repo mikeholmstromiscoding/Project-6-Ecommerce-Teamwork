@@ -1,0 +1,158 @@
+
+.grid-wrapper-cart-step-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+
+
+.font-size-smaller {
+  font-size: 1.1rem;
+}
+
+
+.cart-products-hr-top {
+  background-color: var(--theme-color);
+  height: 1px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.cart-products-hr-breaker {
+  background-color: var(--line-bullet);
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.btn-update {
+  height: 50px !important;
+  width: 178px !important;
+  border-radius: 27px !important;
+}
+
+.btn-update:hover {
+  color: white !important;
+}
+
+.cart-total {
+  border-radius: 6px;
+  max-width: 350px
+}
+
+.cart-total-content {
+  border: 2px dashed var(--secondary-color);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  padding: 25px;
+}
+
+.cart-total-header {
+  min-height: 50px;
+  border: 2px solid var(--secondary-color);
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--theme-color);
+  border-radius: 6px 6px 0 0;
+}
+
+@media (min-width: 1140px) {
+   /* Price */
+   .grid-item-2 {
+     grid-column: 4 / 4;
+     margin-left: 1.8rem;
+   }
+
+   /* Quantity */
+   .grid-item-3 {
+     grid-row: 1 / 1;
+     grid-column: 5 / 5;
+     margin-right: 0.8rem;
+   }
+
+   /* Subtotal */
+   .grid-item-4 {
+     grid-column: 6 / 6;
+     margin-left: 2.8rem;
+   }
+
+}
+
+@media (max-width: 768px) {
+
+  .grid-wrapper-cart-step-1 {
+    grid-template-columns: repeat(6, 1fr);
+    
+  }
+  /* Price */
+  .grid-item-2 {
+    grid-column: 4 / 4;
+    margin-left: 3rem;
+  }
+
+  /* Quantity */
+  .grid-item-3 {
+    grid-row: 1 / 1;
+    grid-column: 5 / 5;
+    margin-left: 2.2rem;
+  }
+  /* Subtotal */
+  .grid-item-4 {
+    grid-column: 6 / 6;
+    margin-left: 2.8rem;
+  }
+
+  .coupon {
+    margin: auto;
+  }
+
+   .btn-update {
+     margin: auto;
+     
+   }
+
+  .cart-total {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .btn-update {
+    margin: auto;
+    height: 50px !important;
+    width: 160px !important;
+  }
+  .cart-products-hr-top {
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+
+  .cart-products {
+    margin: 0 !important;
+  }
+  /* Price */
+  .grid-item-2 {
+    grid-column: 4 / 4;
+    
+  }
+  /* Quantity */
+  .grid-item-3 {
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+    margin-left: 0.5rem;
+  }
+    /* Subtotal */
+  .grid-item-4 {
+    grid-column: 6 / 6;
+    
+  }
+
+   
+
+  
+
+}

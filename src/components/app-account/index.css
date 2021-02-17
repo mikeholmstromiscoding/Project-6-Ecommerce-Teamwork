@@ -1,0 +1,41 @@
+.custom-form{
+  background-color: var(--light-grey);
+  border-radius: 6px;
+  padding: 24px 30px;
+}
+.custom-r-input{
+  border: none !important;
+}
+.custom-form hr{
+  background-color: var(--grey);
+  height: 1px;
+  border: none;
+  width: 30%;
+  margin: 0;
+}
+
+.opt-login{
+  width: 48%;
+  max-width: 235px;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  padding: 9px;
+}
+.opt-login-img{
+  position: absolute;
+  left: 9px;
+}
+.opt-login-facebook{
+  background-color: #3B5998;
+}
+.opt-login-google{
+  background-color: #4285F4;
+}
+
+.invalid-login {
+  color: #dc3545;
+  display: block;
+  margin-top: -15px;
+  padding: 0.5rem 0;
+  }

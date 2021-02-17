@@ -1,0 +1,51 @@
+.app-review {
+    background-color: var(--secondary-color);
+    min-height: 717px;
+    padding: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+.r-text {
+    color: white;
+    text-align: center;
+    max-width: 731px;
+}
+
+.r-thumb {
+    margin-top: 46px;
+    margin-bottom: 30px;
+    width: 190px !important;
+    border: 4px solid #fff;
+    border-radius: .5rem;
+}
+
+.r-quote {
+    width: 100px !important;
+    
+}
+
+.r-thumb-auth {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.r-thumb-desc {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 33px;
+}
+
+#swiper-reviews-button-prev {
+    left: 5% !important;
+    position: absolute !important;
+}
+#swiper-reviews-button-next {
+    right: 5% !important;
+    position: absolute !important;
+}
+
+@media (max-width: 480px) {
+    #swiper-reviews-button-prev, #swiper-reviews-button-next {
+        display: none !important;
+    }
+}

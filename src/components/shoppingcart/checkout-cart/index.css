@@ -1,0 +1,16 @@
+.order-header{
+    min-height: 80px;
+    border: 2px solid var(--secondary-color);
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--theme-color);
+    border-radius: 6px 6px 0 0;
+  }
+  .order-content {
+    border: 2px dashed var(--secondary-color);
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    padding: 25px;
+  }
+
+ 

@@ -1,0 +1,126 @@
+.shop-category {
+  margin-bottom: 5rem;
+}
+
+.shop-category-grid{
+    display: grid;
+    grid-template-areas:
+        "men"
+        "women"
+        "kids"
+        "hats"
+        'shoes'
+        "watches"
+        "sunglasses";
+    gap: .5rem;
+    height: 2000px;
+  }
+
+  @media(min-width: 768px) {
+    .shop-category-grid{
+        display: grid;
+        grid-template-areas:
+        "men women women kids kids"
+        "shoes shoes hats kids kids"
+        "shoes shoes sunglasses sunglasses watches";
+        gap: .4rem;
+        height: 500px;
+      }
+  }
+
+  @media(min-width: 992px){
+    .shop-category-grid{
+      height: 650px;
+      grid-template-areas:
+        "men women women kids kids"
+        "shoes shoes hats kids kids"
+        "shoes shoes sunglasses sunglasses watches";
+    }
+  }
+
+  .shop-category-item{
+    position: relative;
+    background-color: #CCCCCC;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .shop-category-footer{
+    line-height: 28px;
+    font-weight: 500;
+    padding: 8px 15px 6px 15px;
+    font-size: 16px;
+    position: absolute;
+    width: 50%;
+    color: var(--theme-color);
+    bottom: 0;
+    border-radius: 0 6px 0 6px;
+    background-color: var(--secondary-color);
+  }
+
+  @media (min-width: 768px) {
+    .shop-category-footer{
+        width: 70% !important;
+      }
+  }
+  @media (min-width: 992px) {
+    .shop-category-footer{
+        width: 50% !important;
+      }
+  }
+  .item-qnt{
+    font-size: 14px;
+    color: white;
+    line-height: 26px;
+  }
+  
+  .item-men{
+    grid-area: men;
+    background: url('../../assets/img/shop-by-category-img/men.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 40%;
+  }
+  .item-women{
+    grid-area: women;
+    background: url('../../assets/img/shop-by-category-img/women.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 20%;
+  }
+  .item-kids{
+    grid-area: kids;
+    background: url('../../assets/img/shop-by-category-img/kids.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 10%;
+  }
+  .item-shoes{
+    grid-area: shoes;
+    background: url('../../assets/img/shop-by-category-img/shoes.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 20%;
+  }
+  .item-hats{
+    grid-area: hats;
+    background: url('../../assets/img/shop-by-category-img/hat.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 0%;
+  }
+  .item-sunglasses{
+    grid-area: sunglasses;
+    background: url('../../assets/img/shop-by-category-img/glasses.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 95%;
+  }
+  .item-watches{
+    grid-area: watches;
+    background: url('../../assets/img/shop-by-category-img/watch.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position-y: 0%;
+  }

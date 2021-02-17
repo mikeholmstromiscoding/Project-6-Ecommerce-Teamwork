@@ -1,0 +1,15 @@
+:root {
+  --theme-color: #20D3C2;
+  --secondary-color: #0E153D;
+  --secondary-light-color: #0e153ed9;
+  --secondary-dark-color: #080C24;
+  
+  --sale-color: #64CB83;
+  --hot-color: #FE4545;
+
+  --dark-grey: #777777;
+  --light-grey: #f6f6f6;
+  --product-bg: #EEEEEE;
+  --line-bullet: #E3E3E3;
+  --grey: #AAAAAA;
+}

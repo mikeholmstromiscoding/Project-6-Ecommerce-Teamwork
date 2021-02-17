@@ -1,0 +1,20 @@
+.app-latest-blog-header {
+    text-align: center;
+}
+
+.app-latest-blog-header h3 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 21px;
+}
+
+.app-latest-blog-header p {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+@media(min-width: 576px) {
+    .br-sm {
+        display: none !important;
+    }
+}

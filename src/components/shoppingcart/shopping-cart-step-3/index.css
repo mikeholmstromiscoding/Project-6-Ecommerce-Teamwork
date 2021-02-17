@@ -1,0 +1,16 @@
+.order-complete {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.order-info {
+    margin-bottom: 7rem;
+}
+
+.order-link {
+    color: var(--theme-color);
+}
+.order-link:hover {
+    color: var(--theme-color);
+    text-decoration: underline;
+}

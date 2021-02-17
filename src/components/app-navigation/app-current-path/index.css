@@ -1,0 +1,13 @@
+.current-path{
+  background-color: #0e153da6;
+}
+.current-path-container{
+  height: 140px;
+}
+.current-path-container h3{
+  font-size: 24px;
+}
+.current-path-container h2{
+  font-size: 16px;
+  color: white;
+}

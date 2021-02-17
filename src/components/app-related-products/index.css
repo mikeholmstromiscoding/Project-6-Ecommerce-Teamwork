@@ -1,0 +1,9 @@
+.product-brand {
+    display: none !important;
+}
+
+@media only screen and (min-width: 990px)  {
+    #swiper-related-button-next, #swiper-related-button-prev {
+        display: none;
+    }
+}

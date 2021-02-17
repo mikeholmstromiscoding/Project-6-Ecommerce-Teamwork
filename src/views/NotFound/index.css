@@ -1,0 +1,32 @@
+.app-not-found{
+  background-color: var(--light-grey);
+}
+.app-not-cound-container{
+  text-align: center;
+  height: 600px;
+}
+.app-not-cound-container img{
+  width: 90%;
+  max-width: 555px;
+}
+.app-not-cound-container p{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.btn-not-found {
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  outline: none;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
